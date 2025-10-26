@@ -19,7 +19,7 @@ const Header = () => {
             Home
           </Link>
           
-          <Link href="/movies" className={`px-4 md:px-8 text-xl transition-colors duration-300 font-semibold ${
+          <Link href="/" className={`px-4 md:px-8 text-xl transition-colors duration-300 font-semibold ${
             router.pathname === '/movies' 
             ? 'text-[#E2D609]' 
             : 'hover:text-[#E2D609]' 
